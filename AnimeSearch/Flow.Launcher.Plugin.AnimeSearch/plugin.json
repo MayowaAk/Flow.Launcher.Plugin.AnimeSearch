@@ -1,12 +1,12 @@
 {
-    "ID": "9F2B698F-0F4B-4FC4-B57F-79E6E5BD2E9C",
-    "ActionKeyword": "mal",
-    "Name": "AnimeSearch",
-    "Description": "Search for anime and manga",
-    "Author": "MayowaA",
-    "Version": "1.0.0",
-    "Language": "csharp",
-    "Website": "https://github.com/MayowaA/Flow.Launcher.Plugin.AnimeSearch",
-    "IcoPath": "icon.png",
-    "ExecuteFileName": "Flow.Launcher.Plugin.AnimeSearch.dll"
+  "ID": "9F2B698F-0F4B-4FC4-B57F-79E6E5BD2E9C",
+  "ActionKeyword": "mal",
+  "Name": "MalSearch",
+  "Description": "Search for anime and manga from mal",
+  "Author": "MayowaA",
+  "Version": "1.0.0",
+  "Language": "csharp",
+  "Website": "https://github.com/MayowaA/Flow.Launcher.Plugin.AnimeSearch",
+  "IcoPath": "MyAnimeList_Logo.png",
+  "ExecuteFileName": "Flow.Launcher.Plugin.AnimeSearch.dll"
 }
