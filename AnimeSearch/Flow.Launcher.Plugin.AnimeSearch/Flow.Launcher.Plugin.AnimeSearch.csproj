@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <AssemblyName>Flow.Launcher.Plugin.AnimeSearch</AssemblyName>
+    <PackageId>Flow.Launcher.Plugin.AnimeSearch</PackageId>
+    <Authors>MayowaA</Authors>
+    <PackageProjectUrl>https://github.com/MayowaA/Flow.Launcher.Plugin.AnimeSearch</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MayowaA/Flow.Launcher.Plugin.AnimeSearch</RepositoryUrl>
+    <PackageTags>flow-launcher flow-plugin</PackageTags>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>None</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="plugin.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flow.Launcher.Plugin" Version="2.1.1" />
+    <PackageReference Include="JikanDotNet" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>
